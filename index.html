@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>English Library</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h3>Anantha Ragahasiyam</h3>
+            <h5>Sundaram</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores magnam adipisci, eligendi reiciendis accusamus sapiente nostrum quae ut placeat asperiores illo ad consequuntur quasi. Laboriosam libero quibusdam inventore similique ipsum!</p>
+            <button id="deletebutton" onclick="del(event)">Delete</button>
+        </div>
+    </div>
+    <div id="outeralert"> </div>
+    <div id="alertmessage">
+        <h2>Add Book</h2>
+        <!-- <form> -->
+            <input type="text" id="bookname" placeholder="Book Name">
+            <input type="text" id="authorname" placeholder="Author Name">
+            <textarea id="description" cols="30" rows="10" placeholder="Description of this Book"></textarea>
+            <button id="add" onclick="add(event)">Add</button>
+            <button id="cancel" onclick="cancel(event)">Cancel</button>
+        <!-- </form> -->
+    </div>
+    <button id="newaddbook" onclick="newaddbook()">+</button>
+    <!-- <button onclick="hhhh(event)">hhhh</button> -->
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
