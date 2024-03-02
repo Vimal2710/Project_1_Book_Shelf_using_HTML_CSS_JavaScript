@@ -13,11 +13,12 @@ var container=document.querySelector(".container")
 var bname=document.getElementById("bookname")
 var aname=document.getElementById("authorname")
 var description=document.getElementById("description")
+var blink=document.getElementById("booklink")
 function add(event)
 {
     var listitem=document.createElement("div")
     listitem.setAttribute("class","box")
-    listitem.innerHTML=`<h3>${bname.value}</h3> <h5>${aname.value}</h5> <p>${description.value}</p> <button id="deletebutton" onclick="del(event)">Delete</button>`
+    listitem.innerHTML=`<h3>${bname.value}</h3> <h5>${aname.value}</h5> <p>${description.value}</p> <button id="deletebutton" onclick="del(event)">Delete</button> <a href='${blink.value}'>References</a>`
     container.append(listitem)
     outer.style.display="none"
     inner.style.display="none"
