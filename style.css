@@ -33,6 +33,21 @@ body{
     border-radius: 10px;
     border: none;
 }
+.box a{
+    color: white;
+    width: 90px;
+    padding: 6px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(238, 68, 68, 0.63);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+}
 .box h3{
     margin-bottom: 10px;
     color: rgba(238, 68, 68, 0.63);
