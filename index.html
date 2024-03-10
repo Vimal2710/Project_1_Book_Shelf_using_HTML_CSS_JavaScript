@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="frontend_1.css">
 </head>
 <body>
     <div id="heading">
-        <h1>English Library</h1>
+        <h1>English Library/Explore and share</h1>
     </div>
     <div class="container">
         <div class="box">
-            <h3>Anantha Ragahasiyam</h3>
-            <h5>Sundaram</h5>
-            <p>The Ananda Raghayasam Yoga Book is a comprehensive guide to the practice of yoga, written by Ananda Raghayasam, a renowned yoga teacher and practitioner. The book provides detailed instructions on various yoga poses, breathing techniques, and meditation practices, making it suitable for both beginners and experienced practitioners.</p>
+            <h3>This Side of Paradise</h3>
+            <h5> F. Fitzgerald</h5>
+            <p>This Side of Paradise is a novel by F. Scott Fitzgerald, first published in 1920. It is considered a classic of American literature and is often seen as a coming-of-age story.</p>
             <button id="deletebutton" onclick="del(event)">Delete</button>
-            <!-- <button id="action" onclick="https://accounts.google.com/b/0/AddMailService">References</button> -->
-            <a href="https://rsstonline.ecwid.com/%E0%AE%86%E0%AE%A9%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%B0%E0%AE%95%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AE%E0%AF%8D-Ananda-Rahasyam-VCD-Tamil-Book-p246095375" id="action">Reference</a>
+            <a href="https://en.wikipedia.org/wiki/This_Side_of_Paradise" id="action">Reference</a>
+        </div>
+        <div class="box">
+            <h3>The Sword of Conan</h3>
+            <h5>  Robert E. Howard</h5>
+            <p>Savage Sword of Conan was a black-and-white magazine-format comic book series published by Marvel Comics from 1974 to 1995. The series featured Conan the Barbarian and other characters created by Robert E. Howard.</p>
+            <button id="deletebutton" onclick="del(event)">Delete</button>
+            <a href="https://en.wikipedia.org/wiki/The_Sword_of_Conan" id="action">Reference</a>
+        </div>
+        <div class="box">
+            <h3>The Jungle Book</h3>
+            <h5>  Rudyard Kipling</h5>
+            <p>A major theme in the book is abandonment followed by fostering, as in the life of Mowgli, echoing Kipling's own childhood. The theme is echoed in the triumph of protagonists including Rikki-Tikki-Tavi and The White Seal over their enemies, as well as Mowgli's. Another important theme is of law and freedom; the stories are not about animal behaviour, still less about the Darwinian struggle for survival, but about human archetypes in animal form.</p>
+            <button id="deletebutton" onclick="del(event)">Delete</button>
+            <a href="https://en.wikipedia.org/wiki/The_Jungle_Book" id="action">Reference</a>
         </div>
     </div>
     <div id="outeralert"> </div>
@@ -32,9 +45,12 @@
             <button id="cancel" onclick="cancel(event)">Cancel</button>
         <!-- </form> -->
     </div>
-    <button id="newaddbook" onclick="newaddbook()">+</button>
+    <button id="newaddbook" onclick="newaddbook()">Add</button>
+    <div id="homes">
+        <a href="index.html" >Home</a>
+    </div>
     <!-- <button onclick="hhhh(event)">hhhh</button> -->
-    <script src="script.js">
+    <script src="frontend_1.js">
 
     </script>
 </body>
